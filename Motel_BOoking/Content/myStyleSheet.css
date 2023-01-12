@@ -1,0 +1,160 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+.hero-image {
+    background: url("../Images/HOME2.png");
+    background-size: cover;
+    height: 300px
+}
+
+.home-header {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder
+}
+
+.about-image1 img {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.about-image2 img {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.main-image {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-image img {
+    width: 60%;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+.booking-main {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.booking-container .booking-heading {
+    width: 50%;
+    padding-bottom: 80px
+}
+
+.booking-container .booking-heading h3 {
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+}
+
+.booking-container .booking-heading h3 span {
+    font-weight: 100;
+}
+
+.booking-container .booking-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.booking-container .booking-box .booking-dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%
+}
+
+.booking-container .booking-box .booking-dream img {
+    width: 80%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.gallary-main {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.gallary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+gallary-container .gallary-heading {
+    width: 50%;
+    padding-bottom: 80px
+}
+
+.gallary-container .gallary-heading h3 {
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+}
+
+    .gallary-container .gallary-heading h3 span {
+        font-weight: 100;
+    }
+
+.gallary-container .gallary-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallary-container .gallary-box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%
+}
+
+.gallary-container .gallary-box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.lower img {
+    width: 100%;
+    border: 10px;
+    border-color: black
+}
+
+.home-container {
+    margin: 80px;
+    font-size: 1.5em;
+    text-align: center
+}
+
+iframe {
+    border-color: black;
+    border-width: 3px
+}
